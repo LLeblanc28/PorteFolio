@@ -12,14 +12,7 @@
 
 
 <div id="loader"></div>
-<header>
-    <h2>Léo Leblanc</h2>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
+<include-html src="/Components/header.html"></include-html>
 
 <section class="container fade-in">
     <h1>Projets</h1>
@@ -27,26 +20,47 @@
 
         <div class="card">
             <h3>E-Inscription</h3>
-            <p>Plateforme d'inscription complète.</p>
+            <p>Projet de deuxième années de BTS, cette application permettait 
+                aux futurs étudiants de s'inscrire dans leurs formations.
+                Cette application a été développée en PHP avec le framework Symfony,
+                Une base de données Mysql a été utilisée pour stocker les données des étudiants et des formations.
+                L'application a été conçue afin de limité notemment l'utilisation de papier et de faciliter
+                le travail des secrétaires et des étudiants.
+
+                Cette application recensait des formulaires d'inscriptions, étaient envoyer directement depuis Parcoursup.
+            </p>
         </div>
 
         <div class="card">
             <h3>Guitar Configurator</h3>
-            <p>Configurateur dynamique interactif.</p>
+            <p>Guitar Configurator est une application Front only utilisant une API, elle permet à l'utilisateur
+                de configurer sa guitare en choisissant les différentes pièces qui la composent, comme le corps, le manche, les micros, etc.
+                L'application a été développée en Angular et utilise une API pour récupérer les données sur différents type de guitares.
+                L'application a été conçue afin de permettre aux utilisateurs de visualiser leur configuration de guitare en temps réel et de comparer deux configurations.
+            </p>
         </div>
 
         <div class="card">
             <h3>AutoFact</h3>
-            <p>Facturation automatisée.</p>
+            <p>AutoFact est une application de facturation pour les entrepreneurs. Elle permet ainsi au entrepreneur d'avoir un logiciels open-source
+                pour gérer leur facturation, leurs clients et leurs produits. L'application a été développée en C# avec le framework .NET, une base de données SQL Server a été utilisée pour stocker les données des clients, des produits et des factures.
+                L'application a été conçue afin de permettre aux entrepreneurs de gérer facilement leur facturation et de suivre l'état de leurs factures en temps réel.
+            </p>
         </div>
 
         <div class="card">
-            <h3>Solirun</h3>
-            <p>App sportive avec dashboard.</p>
+            <h3>SAFM</h3>
+            <p>
+                SAFM est une application de gestion de flotte de véhicules pour les entreprises.
+                Elle permet aux entreprises de gérer leur flotte de véhicules, de suivre l'entretien
+                et de planifier les réparations. L'application a été développée en PHP avec le framework Symfony et utilise une base de données MySQL pour stocker les données des véhicules, des entretiens et des réparations.
+                L'application a été conçue afin de permettre aux entreprises de gérer efficacement leur flotte de véhicules
+            </p>
         </div>
-
     </div>
 </section>
 </body>
+
+<script src="custom.js"></script>
 
 </html>
