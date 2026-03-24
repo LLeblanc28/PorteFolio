@@ -72,16 +72,6 @@ nav a.active::after {
     width: 100%;
 }
 
-nav a {
-    margin-left: 20px;
-    color: #94a3b8;
-    text-decoration: none;
-    font-size: 0.9rem
-}
-
-nav a:hover {
-    color: #38bdf8
-}
 
 
 
