@@ -1,34 +1,59 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Contact</title>
+    <title>Léo Leblanc — Contact</title>
 </head>
-
 <body>
 
+<div id="loader"></div>
+<include-html src="header.html"></include-html>
 
-    <div id="loader"></div>
-    <include-html src="header.html"></include-html>
+<section class="container fade-in">
 
-    <section class="container fade-in">
-        <h1>Contact</h1>
-        <p>Disponible pour un CDI/CDD et/ou alternance.</p>
+    <span class="section-label">Contact</span>
+    <h1 class="page-title">Travaillons ensemble</h1>
+    <p class="page-subtitle">
+        Disponible pour un CDI, CDD ou une alternance. N'hésitez pas à me contacter —
+        je réponds généralement sous 24h.
+    </p>
 
-        <a href="mailto:leoleblanc28@gmail.com" class="btn">Me contacter</a>
+    <div class="grid-2" style="margin-top: 48px;">
 
-        <div style="margin-top:30px">
-            <a href="https://github.com/LLeblanc28" src=""><img src="assets/github.webp" height="50px" width="50px"
-                    alt="github logo"> </a>
-            <a href="https://www.linkedin.com/in/l%C3%A9o-leblanc-750685290/"><img src="assets/linkedin.webp"
-                    height="50px" width="50px" alt="linkedin logo"></a>
+        <div class="card reveal">
+            <h3>📬 Par email</h3>
+            <p style="margin-bottom: 20px;">
+                La façon la plus directe de me joindre pour une opportunité
+                professionnelle ou toute autre question.
+            </p>
+            <a href="mailto:leoleblanc28@gmail.com" class="btn">
+                leoleblanc28@gmail.com
+            </a>
         </div>
-    </section>
 
-</body>
+        <div class="card reveal" style="transition-delay: 0.1s;">
+            <h3>🔗 Réseaux</h3>
+            <p style="margin-bottom: 20px;">
+                Retrouvez mon code et mon parcours professionnel en ligne.
+            </p>
+            <div class="social-links">
+                <a href="https://github.com/LLeblanc28" class="social-link" target="_blank" rel="noopener">
+                    <img src="assets/github.webp" alt="GitHub">
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/l%C3%A9o-leblanc-750685290/" class="social-link" target="_blank" rel="noopener">
+                    <img src="assets/linkedin.webp" alt="LinkedIn">
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
 <script src="custom.js"></script>
-
+</body>
 </html>
