@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5500/#projects -->
+<html lang="fr">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Fullstack - Léo Leblanc</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">Léo<span>.</span>Leblanc</div>
+    <ul class="nav-links">
+      <li><a href="#">À_propos</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#xp">Expérience</a></li>
+    </ul>
+    <button class="nav-cta">Me contacter →</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-badge">Disponible pour travailler</div>
+    <h1>
+      Développeur<br>
+      <span class="highlight">Fullstack</span> &amp;<br>
+      <span class="highlight2">Developpeur</span> Web
+    </h1>
+    <p class="hero-sub">
+      Je suis un développeur junior qui aime découvrire de nouvelles technologies et apprendre de nouvelles choses. Je
+      suis passionné par le développement web et j'aime créer des applications performantes, sécurisées et
+      maintenables.
+      <br>
+
+      Actuellement en BAC+3 en alternance, je suis à la recherche d'une opportunité pour mettre mes compétences en
+      pratique et continuer à apprendre dans un environnement professionnel stimulant.
+      Afin de continuer mes études en alternance en Master en septembre Data &amp; IA
+    </p>
+    <div class="hero-actions">
+      <button class="btn-primary">Voir mes projets</button>
+      <a class="btn-outline" href="assets/" download="cv_leo_leblanc.pdf">Télécharger le CV</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num">1<span>+</span></div>
+        <div class="stat-label">ans d'expérience</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">5<span>+</span></div>
+        <div class="stat-label">projets livrés</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills-section" id="stack">
+    <div class="section-label">// stack technique</div>
+    <div class="section-title">Technologies utilisées</div>
+    <p class="section-desc">Stack moderne orientée performance, sécurité et maintenabilité.</p>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon frontend">⬡</div>
+        <div class="skill-name">Frontend</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Angular 20</span>
+          <span class="skill-tag">Vue.js</span>
+          <span class="skill-tag">TypeScript</span>
+          <span class="skill-tag">Tailwind</span>
+          <span class="skill-tag">HTML5 / CSS3</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon backend">◈</div>
+        <div class="skill-name">Backend</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">PHP</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">C#</span>
+          <span class="skill-tag">Javascript</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon db">▣</div>
+        <div class="skill-name">Bases de données</div>
+        <div class="skill-tags">
+          <span class="skill-tag">MariaDb</span>
+          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">Prisma</span>
+          <span class="skill-tag">SQLite</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon devops">◉</div>
+        <div class="skill-name">DevOps &amp; Cloud</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">CI/CD</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon testing">▢</div>
+        <div class="skill-name">Cybersécurité</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Sécurité Linux</span>
+          <span class="skill-tag">Code</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon testing">▢</div>
+        <div class="skill-name">Environnement de travail</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Windows (7/8/10/11)</span>
+          <span class="skill-tag">Debian</span>
+          <span class="skill-tag">Ubuntu</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects-section">
+    <div class="section-label">// projets récents</div>
+    <div class="section-title">Ce que j'ai construit</div>
+    <p class="section-desc">Applications en production, architectures distribuées, expériences utilisateurs soignées.
+    </p>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-thumb thumb-a">
+          <div class="thumb-code">
+            const handler = async (req, res) =&gt; {<br>
+            &nbsp;&nbsp;const { user } = await auth(req)<br>
+            &nbsp;&nbsp;const data = await db.query({<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;userId: user.id,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;include: ['orders']<br>
+            &nbsp;&nbsp;})<br>
+            &nbsp;&nbsp;return res.json(data)<br>
+            }
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-type">// SAFM</div>
+          <div class="project-title">Platforme de gestion de flotte</div>
+          <p class="project-desc">Plateforme pour entreprise qui permet de gerer une flotte de véhicule
+            de faire la gestion des entretiens, kilométrage.</p>
+          <div class="project-stack">
+            <span class="stack-tag">Symfony</span>
+            <span class="stack-tag">PHP</span>
+            <span class="stack-tag">Tailwind</span>
+            <span class="stack-tag">MariaDB</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-thumb thumb-b">
+          <div class="thumb-code">
+            @Injectable()<br>
+            export class AuthGuard {<br>
+            &nbsp;&nbsp;canActivate(ctx) {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;const token = this<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.extractToken(ctx)<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;return this.jwt<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.verify(token)<br>
+            &nbsp;&nbsp;}
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-type">// AutoFact</div>
+          <div class="project-title">Application de gestion de facture
+          </div>
+          <p class="project-desc">Application de facturation pour les entrepreneurs</p>
+          <div class="project-stack">
+            <span class="stack-tag">C#</span>
+            <span class="stack-tag">Mariadb</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-thumb thumb-c">
+          <div class="thumb-code">
+            FROM node:20-alpine<br>
+            WORKDIR /app<br>
+            COPY package*.json ./<br>
+            RUN npm ci --only=prod<br>
+            COPY . .<br>
+            EXPOSE 3000<br>
+            CMD ["node", "dist/main"]
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-type">// E-inscription</div>
+          <div class="project-title">Application web d'inscription</div>
+          <p class="project-desc">Projet, plateform d'inscription pour des établissement scolaire, permet d'éviter le
+            papier</p>
+          <div class="project-stack">
+            <span class="stack-tag">Symfony</span>
+            <span class="stack-tag">PHP</span>
+            <span class="stack-tag">MYSQL</span>
+            <span class="stack-tag">Tailwind</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience-section" id="xp">
+    <div class="section-label">// parcours</div>
+    <div class="section-title">Expérience professionnelle</div>
+    <p class="section-desc">Environnements startup, scale-up et grands comptes.</p>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">Été 2024</div>
+        <div class="timeline-line">
+          <div class="timeline-dot"></div>
+          <div class="timeline-connector"></div>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-company">// Rys Cosmétique</div>
+          <div class="timeline-role">Préparateur de commandes</div>
+          <p class="timeline-desc">Préparation de commande.<br>
+            Reception de livraison.<br>
+            Expédition de colis.<br>
+            Gestion de stock.<br>
+            Assitant au conditionnement de flacon
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Janvier 2025 - Fin Février 2025</div>
+        <div class="timeline-line">
+          <div class="timeline-dot" style="background: var(--accent2);"></div>
+          <div class="timeline-connector"></div>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-company" style="color: var(--accent2);">// A2K-Informatique</div>
+          <div class="timeline-role">Développeur Front + Backend </div>
+          <p class="timeline-desc">
+            Développement en Symfony <br>
+            Ajout de fonctionnalités<br>
+            Migration symfony 4.4 vers 5.4 / Php 7 vers php 8<br>
+            Correction de bug<br>
+            Montage de l’environnement de développement et de pré-production
+
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Été 2025</div>
+        <div class="timeline-line">
+          <div class="timeline-dot" style="background: var(--accent3);"></div>
+          <div class="timeline-connector"></div>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-company" style="color: var(--accent3);">// Coty</div>
+          <div class="timeline-role">Opérateur de conditionnement</div>
+          <p class="timeline-desc">Conditionnement de flacon de parfum en équipes sur ligne de production.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">Septembre 2025 - Septembre 2026</div>
+        <div class="timeline-line">
+          <div class="timeline-dot" style="background: var(--accent);"></div>
+          <div class="timeline-connector"></div>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-company" style="color: var(--accent);">// ADM Mécanique Générale de Précision</div>
+          <div class="timeline-role">Alternant IT - ERP - Cybersécurité </div>
+          <p class="timeline-desc">
+            Travaux pour atteintre la certification bronze AirCyber.<br>
+            Compréhension et modification de l'ERP Clipper.<br>
+            Support Informatique <br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section">
+    <div class="contact-inner">
+      <div class="section-label" style="text-align:center;">// collaboration</div>
+      <div class="section-title">Travaillons ensemble</div>
+      <p class="section-desc">Disponible pour des projets freelance, des postes en CDI ou des missions de conseil
+        technique.</p>
+      <button class="btn-primary" style="font-size:15px; padding: 14px 36px; border-radius: 10px;">
+        Envoyer un message ↗
+      </button>
+      <div class="contact-links">
+        <a class="contact-link" href="https://github.com/LLeblanc28">[ GitHub ]</a>
+        <a class="contact-link" href="https://www.linkedin.com/in/l%C3%A9o-leblanc-750685290/">[ LinkedIn ]</a>
+        <a class="contact-link" href="mailto:leoleblanc28@gmail.com">[ Email ]</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Designé avec précision · <span>Léo.Leblanc</span></p>
+  </footer>
+
+</body>
+
+</html>

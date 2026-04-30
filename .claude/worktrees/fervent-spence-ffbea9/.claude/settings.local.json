@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh pr create --title 'Redesign portfolio — système de design, animations, corrections de bugs' --body ' *)",
+      "Bash(where gh *)",
+      "Bash(winget list *)",
+      "PowerShell(Get-Command gh -ErrorAction SilentlyContinue; \\(Get-Item \"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" -ErrorAction SilentlyContinue\\).FullName; \\(Get-Item \"$env:LOCALAPPDATA\\\\Programs\\\\GitHub CLI\\\\gh.exe\" -ErrorAction SilentlyContinue\\).FullName)"
+    ]
+  }
+}
